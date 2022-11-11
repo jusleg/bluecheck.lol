@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className='max-w-[400px] p-12 my-12 bg-white xs:rounded-[30px] xs:drop-shadow-[0_35px_35px_rgba(0,0,0,0.01)] text-center mx-auto'>
-        <img src="/bluecheck.svg" className='w-20 h-20 mx-auto'/>
+        <img src="/bluecheck.svg" className='w-20 h-20 mx-auto' alt="blue check"/>
         <h1 className="pt-4 text-3xl">Blue Check</h1>
         <h2 className='text-gray-500'>8 USDC</h2>
 
