@@ -1,0 +1,2 @@
+# bluecheck.lol
+yeah
