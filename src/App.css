@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  @apply h-full flex items-center text-center;
 }
 
 .feature-list {

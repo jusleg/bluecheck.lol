@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply xs:bg-gray-100
+html, body, #root {
+  @apply xs:bg-gray-100;
+  height: 100%;
 }
