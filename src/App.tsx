@@ -21,7 +21,7 @@ function App() {
             <li><LockIcon/>Secured by blockchain</li>
           </ul>
         </div>
-        <div className='mt-4'><a href="#" className='mx-auto w-fit text-gray-500 hover:text-black flex whitepaper-link items-center mb-8'>Whitepaper <ArrowIcon/></a></div>
+        <div className='mt-4'><a href="https://unsplash.com/photos/oCdG2sTjDDQ" className='mx-auto w-fit text-gray-500 hover:text-black flex whitepaper-link items-center mb-8'>Whitepaper <ArrowIcon/></a></div>
         <div ref={checkRef}><button className="buy-button">Buy Now</button></div>
       </div>
     </div>
