@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.feature-list {
+  @apply w-fit mx-auto;
+}
+
+.feature-list li {
+  @apply flex space-y-2 items-center;
+}
+
+.feature-list li svg {
+  @apply mr-1;
+  color: #1da1f2;
+}
+
+.feature-list li:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.whitepaper-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.buy-button {
+  @apply text-white font-bold py-4 px-4 w-full rounded-full text-xl transition-colors;
+  background-color: #1da1f2;
+}
+
+.buy-button:hover {
+  background-color: rgb(66, 138, 210);
+}
