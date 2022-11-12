@@ -6,11 +6,11 @@ import "@openzeppelin/contracts@4.8.0/access/Ownable.sol";
 import "@openzeppelin/contracts@4.8.0/token/ERC1155/extensions/ERC1155Supply.sol";
 
 contract BlueCheckToken is ERC1155, Ownable, ERC1155Supply {
-    uint256 public donation;
+    uint256 public minimumDonationAmount;
     constructor() ERC1155("") {}
 
-    function setDonation(uint256 newDonationAmount) public onlyOwner {
-        donation = newDonationAmount;
+    function setMinimumDonationAmount(uint256 newDonationAmount) public onlyOwner {
+        minimumDonationAmount = newDonationAmount;
     }
 
     function setURI(string memory newuri) public onlyOwner {
@@ -21,8 +21,9 @@ contract BlueCheckToken is ERC1155, Ownable, ERC1155Supply {
         public
         payable
     {
-        require(msg.value >= donation, 'Amount was lower than minimum donation');
+        require(msg.value >= minimumDonationAmount, 'Amount was lower than minimum donation');
         _mint(msg.sender, 1, 1, "");
+        payable(owner()).transfer(msg.value);
     }
 
     // The following functions are overrides required by Solidity.
