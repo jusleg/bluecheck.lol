@@ -32,3 +32,12 @@
 .buy-button:hover {
   background-color: rgb(66, 138, 210);
 }
+
+.loading-container {
+  @apply flex items-center justify-center mt-8;
+}
+
+.loading-container svg {
+  @apply w-16 h-16;
+  fill: #1da1f2;
+}
