@@ -1,7 +1,8 @@
 # [BlueCheck](https://bluecheck.lol) 
 [![opensea badge](https://img.shields.io/badge/OpenSea-%E2%9C%85-brightgreen)](https://opensea.io/collection/official-blue-check) [![twitter badge](https://img.shields.io/badge/Twitter-%F0%9F%90%A6-blue)](https://twitter.com/GetABlueCheck) [![price badge](https://img.shields.io/badge/Price-0.0042069%20ETH-lightgrey)](https://bluecheck.lol)
 
-<img src="https://user-images.githubusercontent.com/4406751/201554399-2a78e94a-f915-4b95-b3c3-6d0684082c05.png" alt="blue check" width="200" height="200" />
+<img width="889" alt="Screenshot 2022-11-13 at 8 22 57 PM" src="https://user-images.githubusercontent.com/4406751/229303337-b1d4eb2f-a874-43f2-8b77-d0f5c1f4f0f6.png">
+
 
 Smart contract + App to mint blue checks.
 
